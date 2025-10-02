@@ -1,0 +1,11 @@
+chest_xray_data
+chest_xray_dataset
+venv
+__pycache__
+.env
+.ipynb_checkpoints
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.pth
