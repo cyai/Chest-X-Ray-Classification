@@ -1,0 +1,8 @@
+{
+  "entropy_threshold": 0.8581231832504272,
+  "confidence_threshold": 0.48693329095840454,
+  "target_coverage": 0.85,
+  "certain_accuracy": 0.8142790480634624,
+  "num_certain": 2143,
+  "num_total": 2520
+}

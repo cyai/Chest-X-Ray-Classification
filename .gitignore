@@ -9,3 +9,7 @@ __pycache__
 *.pyo
 *.pyd
 *.pth
+chest_xray_dataset
+chest_xray_standardized
+rnn_train/test
+hybrid_standardized_train

@@ -1,0 +1,4626 @@
+{
+  "total_misclassified": 577,
+  "analysis_summary": {
+    "normal_errors": 206,
+    "pneumonia_errors": 1,
+    "tuberculosis_errors": 370
+  },
+  "sample_misclassifications": [
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-103.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8435070514678955,
+      "confidence": 0.5262287855148315,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-106.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8587570190429688,
+      "confidence": 0.47461944818496704,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-108.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8645864129066467,
+      "confidence": 0.5176695585250854,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-110.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8602489829063416,
+      "confidence": 0.5203240513801575,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-113.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.7724189758300781,
+      "confidence": 0.6660976409912109,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-124.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.840104341506958,
+      "confidence": 0.5291063189506531,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-13.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8517897129058838,
+      "confidence": 0.5301744341850281,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-131.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8468390107154846,
+      "confidence": 0.5264133810997009,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-134.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8512490391731262,
+      "confidence": 0.5247751474380493,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-135.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8478251695632935,
+      "confidence": 0.4822997450828552,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-138.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8494922518730164,
+      "confidence": 0.5239971876144409,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-141.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8642109036445618,
+      "confidence": 0.5175129175186157,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-149.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8446511030197144,
+      "confidence": 0.5274226069450378,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-150.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8582054376602173,
+      "confidence": 0.4784363806247711,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-154.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.865841805934906,
+      "confidence": 0.5177318453788757,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-155.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8497249484062195,
+      "confidence": 0.5246771574020386,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-158.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8503068685531616,
+      "confidence": 0.5239511728286743,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-159.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.856586754322052,
+      "confidence": 0.5210544466972351,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-162.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8402334451675415,
+      "confidence": 0.5301212072372437,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-163.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.865165114402771,
+      "confidence": 0.5174214243888855,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-166.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.860984206199646,
+      "confidence": 0.5183457136154175,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-171.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8549559116363525,
+      "confidence": 0.5218927264213562,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-179.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8637727499008179,
+      "confidence": 0.5209317803382874,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-182.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.851906418800354,
+      "confidence": 0.4762611985206604,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-183.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8463894128799438,
+      "confidence": 0.4841911792755127,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-184.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8069825768470764,
+      "confidence": 0.612573504447937,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-187.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8576794266700745,
+      "confidence": 0.5227469801902771,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-192.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8624902963638306,
+      "confidence": 0.5213406682014465,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-196.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8628150820732117,
+      "confidence": 0.5189316868782043,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-198.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8419719934463501,
+      "confidence": 0.5242502093315125,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-20.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8532488346099854,
+      "confidence": 0.5239382982254028,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-209.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8513920307159424,
+      "confidence": 0.5268537998199463,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-210.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8454216122627258,
+      "confidence": 0.5722342729568481,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-214.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8552663326263428,
+      "confidence": 0.5306065678596497,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-219.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8513109087944031,
+      "confidence": 0.520951509475708,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-220.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8558635711669922,
+      "confidence": 0.5220996141433716,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-222.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8466664552688599,
+      "confidence": 0.5264183282852173,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-223.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8406688570976257,
+      "confidence": 0.5280237197875977,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-236.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8491401672363281,
+      "confidence": 0.47913914918899536,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-239.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8426767587661743,
+      "confidence": 0.5338444113731384,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-240.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8572894334793091,
+      "confidence": 0.5234043598175049,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-241.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8465297818183899,
+      "confidence": 0.5259901881217957,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-243.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8474007844924927,
+      "confidence": 0.5248054265975952,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-249.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8414767980575562,
+      "confidence": 0.5239583849906921,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-25.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8515679836273193,
+      "confidence": 0.5224730372428894,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-254.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8558948636054993,
+      "confidence": 0.5232095718383789,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-259.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8569297194480896,
+      "confidence": 0.5199481844902039,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-262.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8487780094146729,
+      "confidence": 0.5239298343658447,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-266.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8506082892417908,
+      "confidence": 0.4799288213253021,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-269.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8427132964134216,
+      "confidence": 0.5289722681045532,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-27.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8389272689819336,
+      "confidence": 0.48351040482521057,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-283.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8519487380981445,
+      "confidence": 0.47994059324264526,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-284.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8670916557312012,
+      "confidence": 0.4738052487373352,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-291.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8442355990409851,
+      "confidence": 0.5271456837654114,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-292.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8653637170791626,
+      "confidence": 0.5152357816696167,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-299.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8560172915458679,
+      "confidence": 0.5212308168411255,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-30.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8364401459693909,
+      "confidence": 0.5302227139472961,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-303.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8538932800292969,
+      "confidence": 0.5244666934013367,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-304.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8808045387268066,
+      "confidence": 0.5039548873901367,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-307.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8454117774963379,
+      "confidence": 0.536672055721283,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-308.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8470326662063599,
+      "confidence": 0.47908663749694824,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-311.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8555015921592712,
+      "confidence": 0.5219483375549316,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-314.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8570725917816162,
+      "confidence": 0.5200322270393372,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-317.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8415724039077759,
+      "confidence": 0.52992182970047,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-322.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8509137630462646,
+      "confidence": 0.47850292921066284,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-325.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8489975929260254,
+      "confidence": 0.5270572900772095,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-326.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8498278260231018,
+      "confidence": 0.5243929624557495,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-327.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8466260433197021,
+      "confidence": 0.5259816646575928,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-332.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8659332990646362,
+      "confidence": 0.51604163646698,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-345.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8481391072273254,
+      "confidence": 0.5254982709884644,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-348.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.866957426071167,
+      "confidence": 0.4760793149471283,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-365.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8730916380882263,
+      "confidence": 0.4717490077018738,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-37.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8417263627052307,
+      "confidence": 0.5330398678779602,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-374.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8337776064872742,
+      "confidence": 0.5299502611160278,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-376.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8539958596229553,
+      "confidence": 0.47592583298683167,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-38.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.866586446762085,
+      "confidence": 0.48122015595436096,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-392.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.855260968208313,
+      "confidence": 0.5212586522102356,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-394.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8561691641807556,
+      "confidence": 0.5212094783782959,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-398.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.870794951915741,
+      "confidence": 0.47241178154945374,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-402.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8668614625930786,
+      "confidence": 0.47594204545021057,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-417.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8572215437889099,
+      "confidence": 0.5211005210876465,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-423.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.7937508821487427,
+      "confidence": 0.6436281204223633,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-424.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8452447652816772,
+      "confidence": 0.5268387198448181,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-428.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8427542448043823,
+      "confidence": 0.5277093648910522,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-431.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8622198104858398,
+      "confidence": 0.4775148034095764,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-434.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8436915874481201,
+      "confidence": 0.5240845680236816,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-436.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8605806231498718,
+      "confidence": 0.520268440246582,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-444.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8398787975311279,
+      "confidence": 0.5274175405502319,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-449.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8129895925521851,
+      "confidence": 0.6166520714759827,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-451.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8372992873191833,
+      "confidence": 0.5297991037368774,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-453.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8514282703399658,
+      "confidence": 0.5225456357002258,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-462.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8615987300872803,
+      "confidence": 0.48254328966140747,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-464.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8465430736541748,
+      "confidence": 0.5273335576057434,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-466.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8544131517410278,
+      "confidence": 0.5214446187019348,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-470.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8384458422660828,
+      "confidence": 0.5281763076782227,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-472.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8624998331069946,
+      "confidence": 0.47836488485336304,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-479.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8526049852371216,
+      "confidence": 0.4797937273979187,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-48.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8567095994949341,
+      "confidence": 0.521586537361145,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-484.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8610349297523499,
+      "confidence": 0.5197229385375977,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-489.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.852008581161499,
+      "confidence": 0.5224491357803345,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-493.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8584954142570496,
+      "confidence": 0.5192493200302124,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-494.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8531724214553833,
+      "confidence": 0.5207245945930481,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-499.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8412065505981445,
+      "confidence": 0.5302197933197021,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-514.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8618803024291992,
+      "confidence": 0.5187658071517944,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-515.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8580360412597656,
+      "confidence": 0.519755482673645,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-518.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8429402112960815,
+      "confidence": 0.5279420614242554,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-520.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8400188088417053,
+      "confidence": 0.5291461944580078,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-525.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8436459898948669,
+      "confidence": 0.48339390754699707,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-530.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8579272627830505,
+      "confidence": 0.5208805203437805,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-532.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8606772422790527,
+      "confidence": 0.5189683437347412,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-533.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8527944087982178,
+      "confidence": 0.5274370908737183,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-535.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8596480488777161,
+      "confidence": 0.47527337074279785,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-542.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8528697490692139,
+      "confidence": 0.5264495015144348,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-544.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8462462425231934,
+      "confidence": 0.5237674713134766,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-548.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8562896847724915,
+      "confidence": 0.5215455293655396,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-550.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8455240726470947,
+      "confidence": 0.5273007154464722,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-553.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8445094227790833,
+      "confidence": 0.523569643497467,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-560.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8608236312866211,
+      "confidence": 0.47855299711227417,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-561.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8389078378677368,
+      "confidence": 0.5278307199478149,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-566.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.635998547077179,
+      "confidence": 0.7843689322471619,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-572.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8579461574554443,
+      "confidence": 0.5206700563430786,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-585.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8611438274383545,
+      "confidence": 0.5174616575241089,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-586.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8554447889328003,
+      "confidence": 0.5194773077964783,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-587.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8508169651031494,
+      "confidence": 0.5200389623641968,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-588.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8501168489456177,
+      "confidence": 0.5244590044021606,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-589.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8452591896057129,
+      "confidence": 0.5259251594543457,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-592.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8662546873092651,
+      "confidence": 0.47562479972839355,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-593.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8699648380279541,
+      "confidence": 0.5158352255821228,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-595.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8600343465805054,
+      "confidence": 0.5186896324157715,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-60.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8559005856513977,
+      "confidence": 0.5206576585769653,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-608.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8543845415115356,
+      "confidence": 0.5216142535209656,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-612.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8442530632019043,
+      "confidence": 0.5255964398384094,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-616.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8595016002655029,
+      "confidence": 0.5175318717956543,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-619.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8558169603347778,
+      "confidence": 0.5253648161888123,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-62.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8518654704093933,
+      "confidence": 0.48142409324645996,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-629.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8546864986419678,
+      "confidence": 0.4765376150608063,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-635.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8480372428894043,
+      "confidence": 0.527055561542511,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-637.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8471635580062866,
+      "confidence": 0.5249485969543457,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-64.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8642071485519409,
+      "confidence": 0.5465202927589417,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-645.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8507282733917236,
+      "confidence": 0.5227903127670288,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-646.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8326542377471924,
+      "confidence": 0.531889021396637,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-65.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8604233860969543,
+      "confidence": 0.5197118520736694,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-650.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8501945734024048,
+      "confidence": 0.5244934558868408,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-653.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8447725772857666,
+      "confidence": 0.5280842781066895,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-658.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8512207269668579,
+      "confidence": 0.5195464491844177,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-661.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8545154333114624,
+      "confidence": 0.5229648947715759,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-666.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8636345863342285,
+      "confidence": 0.5204538106918335,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-669.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8541538119316101,
+      "confidence": 0.5293570756912231,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-671.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8466676473617554,
+      "confidence": 0.5249870419502258,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-680.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8470842838287354,
+      "confidence": 0.5247175097465515,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-686.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8506264686584473,
+      "confidence": 0.5243276357650757,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-69.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.852532148361206,
+      "confidence": 0.5224639177322388,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-696.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.857475757598877,
+      "confidence": 0.5224410891532898,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-7.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8606079816818237,
+      "confidence": 0.47621020674705505,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-701.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8619787693023682,
+      "confidence": 0.519428551197052,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-706.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8546371459960938,
+      "confidence": 0.5505138039588928,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-710.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8482856154441833,
+      "confidence": 0.5242521166801453,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-713.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8482643961906433,
+      "confidence": 0.5272267460823059,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-721.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8555852174758911,
+      "confidence": 0.5194624662399292,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-725.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8648366928100586,
+      "confidence": 0.4751160740852356,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-726.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8433685898780823,
+      "confidence": 0.5266836881637573,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-727.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8465631604194641,
+      "confidence": 0.524592399597168,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-738.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8586657643318176,
+      "confidence": 0.4775077700614929,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-744.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8646966218948364,
+      "confidence": 0.5169878005981445,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-748.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8586646914482117,
+      "confidence": 0.4768313467502594,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-750.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8507634997367859,
+      "confidence": 0.5233799815177917,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-754.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8417481780052185,
+      "confidence": 0.5259755849838257,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-759.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8410311937332153,
+      "confidence": 0.5277639627456665,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-761.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8480496406555176,
+      "confidence": 0.5252208113670349,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-767.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.848305881023407,
+      "confidence": 0.5240666270256042,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-777.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8520094156265259,
+      "confidence": 0.5361647009849548,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-78.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8508985042572021,
+      "confidence": 0.5213135480880737,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-785.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8546968698501587,
+      "confidence": 0.4800085127353668,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-793.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8624632358551025,
+      "confidence": 0.517378568649292,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-798.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8537456393241882,
+      "confidence": 0.5207318067550659,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-799.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8574069142341614,
+      "confidence": 0.48053112626075745,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-8.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8474643230438232,
+      "confidence": 0.5250428915023804,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-81.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8527630567550659,
+      "confidence": 0.5243692398071289,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-810.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8549416065216064,
+      "confidence": 0.5248735547065735,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-818.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8605970144271851,
+      "confidence": 0.47474831342697144,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-823.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.849384069442749,
+      "confidence": 0.4767686724662781,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-826.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8473597168922424,
+      "confidence": 0.5242967009544373,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-839.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.853667140007019,
+      "confidence": 0.5247917175292969,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-840.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8469569087028503,
+      "confidence": 0.5248662233352661,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-841.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8589438199996948,
+      "confidence": 0.5210883021354675,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-844.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8615071773529053,
+      "confidence": 0.5201819539070129,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-846.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8491109609603882,
+      "confidence": 0.5229100584983826,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-854.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8505269289016724,
+      "confidence": 0.5223054885864258,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-855.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8588967323303223,
+      "confidence": 0.47953909635543823,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-858.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8525779247283936,
+      "confidence": 0.5230714082717896,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-86.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8499005436897278,
+      "confidence": 0.5243953466415405,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-862.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8515453338623047,
+      "confidence": 0.5225658416748047,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-863.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8496745824813843,
+      "confidence": 0.5247021913528442,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-865.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8566447496414185,
+      "confidence": 0.5203460454940796,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-879.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8629248738288879,
+      "confidence": 0.518642783164978,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-884.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.846417248249054,
+      "confidence": 0.5280295014381409,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-887.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8592302799224854,
+      "confidence": 0.47834330797195435,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-893.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8580195903778076,
+      "confidence": 0.5210884213447571,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-90.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8392361402511597,
+      "confidence": 0.5289082527160645,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-904.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8446826934814453,
+      "confidence": 0.5280156135559082,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-905.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8369448184967041,
+      "confidence": 0.5579726099967957,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-907.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8492817878723145,
+      "confidence": 0.527918815612793,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-908.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.7540385723114014,
+      "confidence": 0.6906012296676636,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-913.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.858604371547699,
+      "confidence": 0.5212160348892212,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-914.jpg",
+      "true_class": "normal",
+      "predicted_class": "tuberculosis",
+      "entropy": 0.8698395490646362,
+      "confidence": 0.4727449417114258,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/normal/normal-923.jpg",
+      "true_class": "normal",
+      "predicted_class": "pneumonia",
+      "entropy": 0.8519026041030884,
+      "confidence": 0.5239144563674927,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/pneumonia/pneumonia-374.jpg",
+      "true_class": "pneumonia",
+      "predicted_class": "normal",
+      "entropy": 0.6087415814399719,
+      "confidence": 0.8142464756965637,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8579403162002563,
+      "confidence": 0.47770071029663086,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-10.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5695024728775024,
+      "confidence": 0.824794590473175,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-100.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8532887101173401,
+      "confidence": 0.4798508584499359,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1000.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8449474573135376,
+      "confidence": 0.48393550515174866,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1005.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8673790693283081,
+      "confidence": 0.48971477150917053,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1006.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8660844564437866,
+      "confidence": 0.4772559106349945,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1008.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.856590747833252,
+      "confidence": 0.47835835814476013,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1010.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.784713625907898,
+      "confidence": 0.6655866503715515,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1011.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8713427782058716,
+      "confidence": 0.47400006651878357,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1014.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8659226298332214,
+      "confidence": 0.4777802526950836,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1016.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8619809150695801,
+      "confidence": 0.49564671516418457,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1018.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.862645149230957,
+      "confidence": 0.47593778371810913,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1023.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8515575528144836,
+      "confidence": 0.5460652112960815,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-103.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8602508902549744,
+      "confidence": 0.5005496144294739,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1035.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7276405692100525,
+      "confidence": 0.7115028500556946,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1040.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8684597015380859,
+      "confidence": 0.4807530343532562,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1041.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.57293301820755,
+      "confidence": 0.8239032626152039,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1045.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.847567081451416,
+      "confidence": 0.48132115602493286,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1046.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8436281681060791,
+      "confidence": 0.48195880651474,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1049.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8636302947998047,
+      "confidence": 0.4927182197570801,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-105.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8550008535385132,
+      "confidence": 0.4864005148410797,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1052.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8503763675689697,
+      "confidence": 0.5004416704177856,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1053.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8660109639167786,
+      "confidence": 0.5283128023147583,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1054.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8543019890785217,
+      "confidence": 0.49358218908309937,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1056.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8446733951568604,
+      "confidence": 0.4942683279514313,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1062.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8486537933349609,
+      "confidence": 0.5142463445663452,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-1064.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.853541374206543,
+      "confidence": 0.5298077464103699,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-109.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8583611249923706,
+      "confidence": 0.49705857038497925,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-110.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8608453273773193,
+      "confidence": 0.4761422574520111,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-111.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8676865696907043,
+      "confidence": 0.47602877020835876,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-115.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8575775623321533,
+      "confidence": 0.5040210485458374,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-117.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8571463823318481,
+      "confidence": 0.5425998568534851,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-118.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8632787466049194,
+      "confidence": 0.5135072469711304,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-12.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8595737218856812,
+      "confidence": 0.4844365119934082,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-122.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8598687052726746,
+      "confidence": 0.4843326508998871,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-123.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8489786386489868,
+      "confidence": 0.5325921177864075,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-126.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8513854146003723,
+      "confidence": 0.5208460688591003,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-129.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8606414794921875,
+      "confidence": 0.47756677865982056,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-132.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8592455387115479,
+      "confidence": 0.4921984076499939,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-135.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8658631443977356,
+      "confidence": 0.4821013808250427,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-136.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8578083515167236,
+      "confidence": 0.538105845451355,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-137.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8435380458831787,
+      "confidence": 0.48958563804626465,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-14.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8253711462020874,
+      "confidence": 0.5829236507415771,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-141.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8584631681442261,
+      "confidence": 0.48180264234542847,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-143.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8750834465026855,
+      "confidence": 0.47230106592178345,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-15.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5616496801376343,
+      "confidence": 0.8271225094795227,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-156.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8476353883743286,
+      "confidence": 0.4823238253593445,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-159.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8546932935714722,
+      "confidence": 0.47625723481178284,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-16.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8559934496879578,
+      "confidence": 0.47649699449539185,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-161.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8579062223434448,
+      "confidence": 0.4803905487060547,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-164.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8523010015487671,
+      "confidence": 0.4887484014034271,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-166.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8427040576934814,
+      "confidence": 0.5481996536254883,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-167.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8531057834625244,
+      "confidence": 0.483393132686615,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-168.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8526238799095154,
+      "confidence": 0.4979587197303772,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-169.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8679796457290649,
+      "confidence": 0.4891616702079773,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-177.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8618022799491882,
+      "confidence": 0.4781826436519623,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-179.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8204044699668884,
+      "confidence": 0.6118439435958862,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-18.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8566900491714478,
+      "confidence": 0.4755636751651764,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-180.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8637622594833374,
+      "confidence": 0.49945712089538574,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-187.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6774321794509888,
+      "confidence": 0.7555434703826904,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-188.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7407835721969604,
+      "confidence": 0.706535816192627,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-19.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8310685157775879,
+      "confidence": 0.6124657988548279,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-191.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6420235633850098,
+      "confidence": 0.7783107161521912,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-192.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8583084344863892,
+      "confidence": 0.49436521530151367,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-196.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8565483093261719,
+      "confidence": 0.4814329147338867,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-20.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8662846088409424,
+      "confidence": 0.4897260069847107,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-205.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7115643620491028,
+      "confidence": 0.736044704914093,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-216.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8449747562408447,
+      "confidence": 0.48835596442222595,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-217.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8557248115539551,
+      "confidence": 0.49538475275039673,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-219.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8671067953109741,
+      "confidence": 0.4820055067539215,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-220.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8589555621147156,
+      "confidence": 0.4825863242149353,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-221.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8663036823272705,
+      "confidence": 0.5014072060585022,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-223.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8637567758560181,
+      "confidence": 0.5139881372451782,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-226.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7601124048233032,
+      "confidence": 0.6917200684547424,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-227.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8689096570014954,
+      "confidence": 0.5005744695663452,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-228.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8628398180007935,
+      "confidence": 0.4781494140625,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-229.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.4577736258506775,
+      "confidence": 0.8763874173164368,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-23.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.863227128982544,
+      "confidence": 0.5143303275108337,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-231.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8307733535766602,
+      "confidence": 0.5833429098129272,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-234.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8520419597625732,
+      "confidence": 0.4912242889404297,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-235.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8371405601501465,
+      "confidence": 0.5593536496162415,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-237.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8555924892425537,
+      "confidence": 0.5537205338478088,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-238.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8668506145477295,
+      "confidence": 0.49900585412979126,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-239.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8626173734664917,
+      "confidence": 0.47730493545532227,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-24.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5898042321205139,
+      "confidence": 0.8124645352363586,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-240.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8193904161453247,
+      "confidence": 0.5880361795425415,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-244.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8501521348953247,
+      "confidence": 0.4926629662513733,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-249.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8559526801109314,
+      "confidence": 0.4871339797973633,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-250.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7079805135726929,
+      "confidence": 0.7287917733192444,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-252.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8291124105453491,
+      "confidence": 0.5623396039009094,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-254.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8038554191589355,
+      "confidence": 0.63470059633255,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-26.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6432204246520996,
+      "confidence": 0.781703770160675,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-263.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8531583547592163,
+      "confidence": 0.5188463926315308,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-267.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8469330668449402,
+      "confidence": 0.48999422788619995,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-268.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8624751567840576,
+      "confidence": 0.5160607099533081,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-27.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8539799451828003,
+      "confidence": 0.49256762862205505,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-272.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7169177532196045,
+      "confidence": 0.723209798336029,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-273.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8404959440231323,
+      "confidence": 0.580334484577179,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-275.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7404619455337524,
+      "confidence": 0.7096890807151794,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-277.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8532043695449829,
+      "confidence": 0.49308595061302185,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-278.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8625807166099548,
+      "confidence": 0.47704729437828064,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-279.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.849708080291748,
+      "confidence": 0.4849282205104828,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-280.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8402020335197449,
+      "confidence": 0.5610048174858093,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-281.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8530756235122681,
+      "confidence": 0.49408403038978577,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-287.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8256230354309082,
+      "confidence": 0.5846689939498901,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-29.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8415734767913818,
+      "confidence": 0.5568404197692871,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-291.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6206804513931274,
+      "confidence": 0.7908282279968262,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-292.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8510670065879822,
+      "confidence": 0.4825512766838074,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-293.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8544358015060425,
+      "confidence": 0.5570165514945984,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-294.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7724854946136475,
+      "confidence": 0.6712393164634705,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-296.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8496259450912476,
+      "confidence": 0.4774538576602936,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-297.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.864874005317688,
+      "confidence": 0.4758034646511078,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-298.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5445801019668579,
+      "confidence": 0.8367234468460083,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-3.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8670297861099243,
+      "confidence": 0.48246222734451294,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-30.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8478109836578369,
+      "confidence": 0.49214816093444824,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-301.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7980661392211914,
+      "confidence": 0.6462087631225586,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-306.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8637111783027649,
+      "confidence": 0.4972640872001648,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-308.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8575976490974426,
+      "confidence": 0.4825274348258972,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-31.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8530468344688416,
+      "confidence": 0.4806954264640808,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-311.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8528574705123901,
+      "confidence": 0.48555541038513184,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-312.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8559281826019287,
+      "confidence": 0.49517545104026794,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-313.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7315595149993896,
+      "confidence": 0.7156338095664978,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-317.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8692125678062439,
+      "confidence": 0.516018807888031,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-321.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5542334914207458,
+      "confidence": 0.8348981738090515,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-326.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8566627502441406,
+      "confidence": 0.49636736512184143,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-327.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8563410043716431,
+      "confidence": 0.47842684388160706,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-331.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.842037558555603,
+      "confidence": 0.4875260293483734,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-335.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8515582084655762,
+      "confidence": 0.5316051840782166,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-338.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8698134422302246,
+      "confidence": 0.47715654969215393,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-340.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8583227396011353,
+      "confidence": 0.5059496760368347,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-341.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8572567701339722,
+      "confidence": 0.5182008147239685,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-350.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5146523118019104,
+      "confidence": 0.8516043424606323,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-351.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8690126538276672,
+      "confidence": 0.4768438935279846,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-354.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8587249517440796,
+      "confidence": 0.4950408935546875,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-355.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7253115177154541,
+      "confidence": 0.7269374132156372,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-356.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.848252534866333,
+      "confidence": 0.4830624461174011,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-357.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8514983654022217,
+      "confidence": 0.48109737038612366,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-358.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8737115859985352,
+      "confidence": 0.47265130281448364,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-359.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.80461585521698,
+      "confidence": 0.6215757131576538,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-365.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8554864525794983,
+      "confidence": 0.4848203659057617,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-367.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8571053743362427,
+      "confidence": 0.4932211935520172,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-368.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.861003041267395,
+      "confidence": 0.477893203496933,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-369.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8575035333633423,
+      "confidence": 0.49924522638320923,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-370.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8478801250457764,
+      "confidence": 0.529520571231842,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-373.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8546162843704224,
+      "confidence": 0.5157135725021362,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-375.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7990279197692871,
+      "confidence": 0.6314494609832764,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-376.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.856348991394043,
+      "confidence": 0.47676724195480347,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-378.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8122291564941406,
+      "confidence": 0.6312423944473267,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-379.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8572487831115723,
+      "confidence": 0.48352566361427307,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-381.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8514165878295898,
+      "confidence": 0.4857507646083832,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-385.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7267446517944336,
+      "confidence": 0.7094043493270874,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-389.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8668195009231567,
+      "confidence": 0.5158158540725708,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-392.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8550056219100952,
+      "confidence": 0.4826224446296692,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-393.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8427241444587708,
+      "confidence": 0.4937204420566559,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-394.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8489170074462891,
+      "confidence": 0.4986615777015686,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-398.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8560523986816406,
+      "confidence": 0.48179879784584045,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-399.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8501776456832886,
+      "confidence": 0.4861000180244446,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-40.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8536922931671143,
+      "confidence": 0.4763437807559967,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-408.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8642584085464478,
+      "confidence": 0.4858580529689789,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-410.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8619087934494019,
+      "confidence": 0.480548232793808,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-413.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8572636842727661,
+      "confidence": 0.4770779013633728,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-415.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8461908102035522,
+      "confidence": 0.49305492639541626,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-416.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8646111488342285,
+      "confidence": 0.4787437319755554,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-420.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8575892448425293,
+      "confidence": 0.4861237108707428,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-422.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8634006977081299,
+      "confidence": 0.4872322082519531,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-423.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8585787415504456,
+      "confidence": 0.47634607553482056,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-426.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8695254325866699,
+      "confidence": 0.4729700982570648,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-427.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8571349382400513,
+      "confidence": 0.48139944672584534,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-430.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8533632755279541,
+      "confidence": 0.5504440069198608,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-432.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8491986989974976,
+      "confidence": 0.51772141456604,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-433.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8634521961212158,
+      "confidence": 0.49753040075302124,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-436.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8494441509246826,
+      "confidence": 0.487729549407959,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-438.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8364483714103699,
+      "confidence": 0.5372623801231384,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-44.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8366407155990601,
+      "confidence": 0.5908104181289673,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-452.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7709004878997803,
+      "confidence": 0.6767746210098267,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-459.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8453561663627625,
+      "confidence": 0.485170841217041,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-461.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.854759931564331,
+      "confidence": 0.5278990864753723,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-462.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8594214916229248,
+      "confidence": 0.47568607330322266,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-463.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.854287326335907,
+      "confidence": 0.49617552757263184,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-476.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.866026759147644,
+      "confidence": 0.49332937598228455,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-477.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.856393575668335,
+      "confidence": 0.5428668260574341,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-481.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8465991020202637,
+      "confidence": 0.580116868019104,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-484.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6500608921051025,
+      "confidence": 0.7725437879562378,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-485.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8554317355155945,
+      "confidence": 0.47590166330337524,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-489.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.853830099105835,
+      "confidence": 0.483311265707016,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-497.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8563582897186279,
+      "confidence": 0.4772030711174011,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-498.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8515598773956299,
+      "confidence": 0.4893297553062439,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-50.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8479300737380981,
+      "confidence": 0.530684769153595,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-500.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8602163791656494,
+      "confidence": 0.4772191047668457,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-502.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8616382479667664,
+      "confidence": 0.5105400681495667,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-505.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8547390103340149,
+      "confidence": 0.4998535215854645,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-506.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8510674238204956,
+      "confidence": 0.48040518164634705,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-51.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8419257402420044,
+      "confidence": 0.4974846839904785,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-510.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8614907264709473,
+      "confidence": 0.5216153264045715,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-512.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8413797616958618,
+      "confidence": 0.48181837797164917,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-52.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8624461889266968,
+      "confidence": 0.49724626541137695,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-522.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8525186777114868,
+      "confidence": 0.4898608326911926,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-524.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8525376319885254,
+      "confidence": 0.48090362548828125,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-53.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8461335301399231,
+      "confidence": 0.48424917459487915,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-530.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8460828065872192,
+      "confidence": 0.4921606481075287,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-533.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8550463914871216,
+      "confidence": 0.4814162254333496,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-534.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8713605403900146,
+      "confidence": 0.47217845916748047,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-537.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.856486439704895,
+      "confidence": 0.5265048742294312,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-542.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8431428670883179,
+      "confidence": 0.4829937517642975,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-543.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8712947368621826,
+      "confidence": 0.47475695610046387,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-544.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.85957932472229,
+      "confidence": 0.49024683237075806,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-545.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8295124769210815,
+      "confidence": 0.5501874685287476,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-546.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8497955203056335,
+      "confidence": 0.48305773735046387,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-547.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8459253311157227,
+      "confidence": 0.5666712522506714,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-555.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7979859113693237,
+      "confidence": 0.6217859387397766,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-557.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8655082583427429,
+      "confidence": 0.5048447847366333,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-559.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8413763046264648,
+      "confidence": 0.5525047779083252,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-56.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8528532981872559,
+      "confidence": 0.4806737005710602,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-560.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8611986637115479,
+      "confidence": 0.4837550222873688,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-563.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8584066033363342,
+      "confidence": 0.48080262541770935,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-564.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8569175004959106,
+      "confidence": 0.47735661268234253,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-567.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5643155574798584,
+      "confidence": 0.8290027379989624,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-57.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8638838529586792,
+      "confidence": 0.4763006567955017,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-571.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8580400347709656,
+      "confidence": 0.4838482737541199,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-573.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8542391061782837,
+      "confidence": 0.5116070508956909,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-576.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8462945222854614,
+      "confidence": 0.49639931321144104,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-58.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8590854406356812,
+      "confidence": 0.48572880029678345,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-580.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8554662466049194,
+      "confidence": 0.5089879631996155,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-583.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8392881155014038,
+      "confidence": 0.5688105821609497,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-585.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8770716190338135,
+      "confidence": 0.4760289192199707,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-589.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8732921481132507,
+      "confidence": 0.4829646944999695,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-592.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8685290217399597,
+      "confidence": 0.48581892251968384,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-593.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8459161520004272,
+      "confidence": 0.47830501198768616,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-594.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8528614044189453,
+      "confidence": 0.47722211480140686,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-595.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8585953712463379,
+      "confidence": 0.49561864137649536,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-596.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8516860008239746,
+      "confidence": 0.4771602749824524,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-611.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8637169599533081,
+      "confidence": 0.4860844612121582,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-617.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8651549220085144,
+      "confidence": 0.48453789949417114,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-619.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.859030544757843,
+      "confidence": 0.4791399836540222,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-621.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8580840229988098,
+      "confidence": 0.4942415654659271,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-624.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7675455808639526,
+      "confidence": 0.6807188987731934,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-626.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8476803302764893,
+      "confidence": 0.48841995000839233,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-627.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8612518906593323,
+      "confidence": 0.5137858986854553,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-628.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8566734790802002,
+      "confidence": 0.4810252785682678,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-63.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8780889511108398,
+      "confidence": 0.4925025403499603,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-630.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8474794626235962,
+      "confidence": 0.5609458684921265,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-634.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.4668434262275696,
+      "confidence": 0.8734514117240906,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-635.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8612931966781616,
+      "confidence": 0.478862464427948,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-636.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8673728704452515,
+      "confidence": 0.47656530141830444,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-637.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6112716197967529,
+      "confidence": 0.7966312170028687,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-641.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8574914336204529,
+      "confidence": 0.49472084641456604,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-643.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8587864637374878,
+      "confidence": 0.5135904550552368,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-647.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8328857421875,
+      "confidence": 0.5597047209739685,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-65.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8453723788261414,
+      "confidence": 0.5351654291152954,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-651.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7875807285308838,
+      "confidence": 0.6409720778465271,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-652.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8637305498123169,
+      "confidence": 0.5519816279411316,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-654.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8486558198928833,
+      "confidence": 0.4879710078239441,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-656.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8562408089637756,
+      "confidence": 0.48840028047561646,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-660.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8527486324310303,
+      "confidence": 0.4836695194244385,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-662.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.86151123046875,
+      "confidence": 0.4973175525665283,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-664.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8546030521392822,
+      "confidence": 0.4995245039463043,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-666.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.871430516242981,
+      "confidence": 0.5082822442054749,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-668.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8527024984359741,
+      "confidence": 0.4953938126564026,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-670.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8568346500396729,
+      "confidence": 0.47629013657569885,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-672.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8595366477966309,
+      "confidence": 0.4798824191093445,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-673.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8595300912857056,
+      "confidence": 0.4802761673927307,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-674.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8475282192230225,
+      "confidence": 0.5062298774719238,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-675.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8531737327575684,
+      "confidence": 0.4877236485481262,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-676.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8532438278198242,
+      "confidence": 0.5212391018867493,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-677.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.48617446422576904,
+      "confidence": 0.8632141947746277,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-682.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.868052065372467,
+      "confidence": 0.4757080078125,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-684.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8441435098648071,
+      "confidence": 0.4984651207923889,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-687.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.846112847328186,
+      "confidence": 0.5002330541610718,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-688.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8487275838851929,
+      "confidence": 0.48055702447891235,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-690.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8521596193313599,
+      "confidence": 0.5304906964302063,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-692.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5631886720657349,
+      "confidence": 0.8259305953979492,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-695.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8666507005691528,
+      "confidence": 0.49027925729751587,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-698.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8580273389816284,
+      "confidence": 0.5237116813659668,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-699.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8530218601226807,
+      "confidence": 0.4776619076728821,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-707.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8577687740325928,
+      "confidence": 0.4786441922187805,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-71.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8579707145690918,
+      "confidence": 0.4883667826652527,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-711.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7439653873443604,
+      "confidence": 0.6978147625923157,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-724.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8511103391647339,
+      "confidence": 0.5067031979560852,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-725.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8532195091247559,
+      "confidence": 0.48184114694595337,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-726.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8486199975013733,
+      "confidence": 0.5361953377723694,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-727.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8250229358673096,
+      "confidence": 0.5758742690086365,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-729.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8474705219268799,
+      "confidence": 0.48335203528404236,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-732.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8516913652420044,
+      "confidence": 0.484946072101593,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-736.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8658889532089233,
+      "confidence": 0.5020546913146973,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-74.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7071570158004761,
+      "confidence": 0.7308437824249268,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-742.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7583222389221191,
+      "confidence": 0.6767935156822205,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-744.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8429845571517944,
+      "confidence": 0.4821198880672455,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-749.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.851542055606842,
+      "confidence": 0.4938901960849762,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-752.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7931945323944092,
+      "confidence": 0.6596380472183228,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-756.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7586123943328857,
+      "confidence": 0.6718201637268066,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-758.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8678337335586548,
+      "confidence": 0.49552449584007263,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-76.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8404303789138794,
+      "confidence": 0.4849124550819397,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-761.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8573108315467834,
+      "confidence": 0.532584011554718,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-762.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8741227388381958,
+      "confidence": 0.5135267972946167,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-763.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.861675500869751,
+      "confidence": 0.5119736790657043,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-766.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8558125495910645,
+      "confidence": 0.47633808851242065,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-770.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8538350462913513,
+      "confidence": 0.5120821595191956,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-771.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8525747060775757,
+      "confidence": 0.4786357283592224,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-773.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8643622398376465,
+      "confidence": 0.49488115310668945,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-777.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8626638650894165,
+      "confidence": 0.4877568781375885,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-781.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8581491708755493,
+      "confidence": 0.48738592863082886,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-783.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8720875382423401,
+      "confidence": 0.48848405480384827,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-786.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8679534196853638,
+      "confidence": 0.47561144828796387,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-787.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8457375764846802,
+      "confidence": 0.4783448576927185,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-79.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8573779463768005,
+      "confidence": 0.4852108955383301,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-791.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.851261556148529,
+      "confidence": 0.5583714842796326,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-798.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8548911809921265,
+      "confidence": 0.4836495518684387,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-806.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8558956384658813,
+      "confidence": 0.5086508393287659,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-809.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.801834225654602,
+      "confidence": 0.6440725326538086,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-812.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8381720781326294,
+      "confidence": 0.5214231610298157,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-813.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8543282747268677,
+      "confidence": 0.47953692078590393,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-814.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8660841584205627,
+      "confidence": 0.5077266693115234,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-817.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8723511695861816,
+      "confidence": 0.501392126083374,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-82.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7682873010635376,
+      "confidence": 0.6711567640304565,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-820.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8561747074127197,
+      "confidence": 0.5027695894241333,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-83.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8544960021972656,
+      "confidence": 0.4991430342197418,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-830.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8645063638687134,
+      "confidence": 0.5019735097885132,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-831.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8444409370422363,
+      "confidence": 0.5653189420700073,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-839.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.849195122718811,
+      "confidence": 0.4968939423561096,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-844.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8563716411590576,
+      "confidence": 0.5042300820350647,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-849.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6159332394599915,
+      "confidence": 0.7987172603607178,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-850.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8634185791015625,
+      "confidence": 0.4788878560066223,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-851.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8700168132781982,
+      "confidence": 0.48081859946250916,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-854.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.6444145441055298,
+      "confidence": 0.7774459719657898,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-855.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8619021773338318,
+      "confidence": 0.4760487675666809,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-858.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8671473264694214,
+      "confidence": 0.490139901638031,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-863.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8560529351234436,
+      "confidence": 0.509936511516571,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-871.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8598337769508362,
+      "confidence": 0.490125834941864,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-874.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7881271839141846,
+      "confidence": 0.6645370721817017,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-875.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8604516386985779,
+      "confidence": 0.48922252655029297,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-876.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8503842353820801,
+      "confidence": 0.4928271174430847,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-877.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8350783586502075,
+      "confidence": 0.5882880687713623,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-880.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.848442792892456,
+      "confidence": 0.4856378436088562,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-887.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8688308596611023,
+      "confidence": 0.4983103275299072,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-903.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5938986539840698,
+      "confidence": 0.8100116848945618,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-907.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8631324768066406,
+      "confidence": 0.4820803701877594,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-914.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8629133701324463,
+      "confidence": 0.4739660322666168,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-915.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8510891795158386,
+      "confidence": 0.4910714030265808,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-916.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8634364604949951,
+      "confidence": 0.4934772551059723,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-920.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8581511378288269,
+      "confidence": 0.48477903008461,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-931.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8616862893104553,
+      "confidence": 0.5120523571968079,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-932.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8881193399429321,
+      "confidence": 0.4979138970375061,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-933.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8564946055412292,
+      "confidence": 0.5050047039985657,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-934.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8261071443557739,
+      "confidence": 0.586462140083313,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-937.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8412299156188965,
+      "confidence": 0.48041433095932007,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-941.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8565796613693237,
+      "confidence": 0.4865419268608093,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-942.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8625118732452393,
+      "confidence": 0.48303136229515076,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-943.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.54554283618927,
+      "confidence": 0.8417983055114746,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-946.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.852790117263794,
+      "confidence": 0.49499091506004333,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-947.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8622928857803345,
+      "confidence": 0.4784737527370453,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-949.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8269796371459961,
+      "confidence": 0.606120228767395,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-95.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8432443141937256,
+      "confidence": 0.5002692341804504,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-951.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8395874500274658,
+      "confidence": 0.5168846845626831,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-956.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.5778733491897583,
+      "confidence": 0.8233193159103394,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-96.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8669946193695068,
+      "confidence": 0.4894936680793762,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-964.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8615543842315674,
+      "confidence": 0.5144578814506531,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-966.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8551790714263916,
+      "confidence": 0.5206465721130371,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-969.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8417752981185913,
+      "confidence": 0.5517948269844055,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-971.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8656073808670044,
+      "confidence": 0.49188151955604553,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-973.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8526213765144348,
+      "confidence": 0.47607001662254333,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-979.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8429763317108154,
+      "confidence": 0.48288726806640625,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-982.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8421343564987183,
+      "confidence": 0.4854678213596344,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-984.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.603888750076294,
+      "confidence": 0.8017908334732056,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-985.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8721585273742676,
+      "confidence": 0.47785982489585876,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-988.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8626254796981812,
+      "confidence": 0.47503429651260376,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-990.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.855309247970581,
+      "confidence": 0.48243361711502075,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-991.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8657029867172241,
+      "confidence": 0.49621838331222534,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-997.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8635694980621338,
+      "confidence": 0.47935572266578674,
+      "is_uncertain": true
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-998.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.7497923970222473,
+      "confidence": 0.6903553009033203,
+      "is_uncertain": false
+    },
+    {
+      "image_path": "./chest_xray_standardized/test/tuberculosis/tuberculosis-999.jpg",
+      "true_class": "tuberculosis",
+      "predicted_class": "normal",
+      "entropy": 0.8590242862701416,
+      "confidence": 0.4919968545436859,
+      "is_uncertain": true
+    }
+  ]
+}

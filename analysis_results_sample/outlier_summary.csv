@@ -1,0 +1,4 @@
+class,total_images,outlier_images,outlier_percentage,severe_outliers
+normal,1500,233,15.533333333333331,10
+pneumonia,1500,131,8.733333333333333,21
+tuberculosis,1500,180,12.0,14

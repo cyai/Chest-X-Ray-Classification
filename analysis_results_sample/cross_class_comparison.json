@@ -1,0 +1,355 @@
+{
+  "width": {
+    "normal": {
+      "mean": 885.232,
+      "std": 456.46988803401683,
+      "min": 256.0,
+      "max": 2566.0
+    },
+    "pneumonia": {
+      "mean": 1318.2333333333333,
+      "std": 351.25156416701606,
+      "min": 399.0,
+      "max": 2844.0
+    },
+    "tuberculosis": {
+      "mean": 379.26,
+      "std": 186.54870144819554,
+      "min": 144.0,
+      "max": 2374.0
+    },
+    "coefficient_of_variation": 44.5715121997224,
+    "is_significantly_different": "True"
+  },
+  "height": {
+    "normal": {
+      "mean": 836.7553333333333,
+      "std": 382.9039868082223,
+      "min": 256.0,
+      "max": 2663.0
+    },
+    "pneumonia": {
+      "mean": 954.908,
+      "std": 368.9806788486028,
+      "min": 138.0,
+      "max": 2519.0
+    },
+    "tuberculosis": {
+      "mean": 375.238,
+      "std": 202.04046192492373,
+      "min": 124.0,
+      "max": 2784.0
+    },
+    "coefficient_of_variation": 34.62626540184948,
+    "is_significantly_different": "True"
+  },
+  "aspect_ratio": {
+    "normal": {
+      "mean": 1.0389890666545925,
+      "std": 0.10744581710271947,
+      "min": 0.8911002628614345,
+      "max": 1.8727272727272728
+    },
+    "pneumonia": {
+      "mean": 1.453233057809055,
+      "std": 0.24834441002881574,
+      "min": 0.9045643153526971,
+      "max": 2.898550724637681
+    },
+    "tuberculosis": {
+      "mean": 1.0275331102123888,
+      "std": 0.10193694457526796,
+      "min": 0.5625,
+      "max": 2.064516129032258
+    },
+    "coefficient_of_variation": 16.87889405445264,
+    "is_significantly_different": "False"
+  },
+  "file_size_kb": {
+    "normal": {
+      "mean": 168.80458658854167,
+      "std": 196.6161034246674,
+      "min": 10.6796875,
+      "max": 1823.9091796875
+    },
+    "pneumonia": {
+      "mean": 217.965509765625,
+      "std": 221.63432999193483,
+      "min": 7.0615234375,
+      "max": 2086.998046875
+    },
+    "tuberculosis": {
+      "mean": 32.796188802083336,
+      "std": 52.11137306771217,
+      "min": 1.0185546875,
+      "max": 884.1806640625
+    },
+    "coefficient_of_variation": 55.99893992308479,
+    "is_significantly_different": "True"
+  },
+  "mean_intensity": {
+    "normal": {
+      "mean": 128.6784915212203,
+      "std": 20.9184923848807,
+      "min": 59.36188507080078,
+      "max": 189.60185718536377
+    },
+    "pneumonia": {
+      "mean": 122.56931234798623,
+      "std": 18.253657883061518,
+      "min": 58.72244887186294,
+      "max": 201.83959785883957
+    },
+    "tuberculosis": {
+      "mean": 132.89680582213867,
+      "std": 26.40327858851114,
+      "min": 5.4384765625,
+      "max": 237.21969506048387
+    },
+    "coefficient_of_variation": 3.3109968606075353,
+    "is_significantly_different": "False"
+  },
+  "brightness": {
+    "normal": {
+      "mean": 128.6784915212203,
+      "std": 20.9184923848807,
+      "min": 59.36188507080078,
+      "max": 189.60185718536377
+    },
+    "pneumonia": {
+      "mean": 122.56931234798623,
+      "std": 18.253657883061518,
+      "min": 58.72244887186294,
+      "max": 201.83959785883957
+    },
+    "tuberculosis": {
+      "mean": 132.89680582213867,
+      "std": 26.40327858851114,
+      "min": 5.4384765625,
+      "max": 237.21969506048387
+    },
+    "coefficient_of_variation": 3.3109968606075353,
+    "is_significantly_different": "False"
+  },
+  "contrast": {
+    "normal": {
+      "mean": 61.61366555937898,
+      "std": 9.502922876668277,
+      "min": 30.59354208557972,
+      "max": 91.86088192441154
+    },
+    "pneumonia": {
+      "mean": 57.11538362881665,
+      "std": 9.199369706329628,
+      "min": 23.327008886639433,
+      "max": 87.48049350932348
+    },
+    "tuberculosis": {
+      "mean": 55.91702277062678,
+      "std": 13.540587273432362,
+      "min": 1.7578990321583272,
+      "max": 96.64755735447072
+    },
+    "coefficient_of_variation": 4.212398923170535,
+    "is_significantly_different": "False"
+  },
+  "sharpness": {
+    "normal": {
+      "mean": 122.71757067655567,
+      "std": 97.35105628517424,
+      "min": 13.50168778159059,
+      "max": 1015.8414908592167
+    },
+    "pneumonia": {
+      "mean": 146.3081193859869,
+      "std": 108.88957119198147,
+      "min": 8.07217686925296,
+      "max": 1907.6328523698937
+    },
+    "tuberculosis": {
+      "mean": 207.26420129126248,
+      "std": 197.43366802909685,
+      "min": 0.1060790866613388,
+      "max": 1306.0059369637886
+    },
+    "coefficient_of_variation": 22.437125357606778,
+    "is_significantly_different": "True"
+  },
+  "edge_density": {
+    "normal": {
+      "mean": 0.026436998134252047,
+      "std": 0.03553809471776434,
+      "min": 0.0007602950430923886,
+      "max": 0.2188568115234375
+    },
+    "pneumonia": {
+      "mean": 0.010402951852102577,
+      "std": 0.008188448508676434,
+      "min": 0.0003521991677262744,
+      "max": 0.11367099123303168
+    },
+    "tuberculosis": {
+      "mean": 0.05953370625521242,
+      "std": 0.04503896050395783,
+      "min": 0.0,
+      "max": 0.264404296875
+    },
+    "coefficient_of_variation": 63.67953928124878,
+    "is_significantly_different": "True"
+  },
+  "mean_r": {
+    "normal": {
+      "mean": 128.6784915212203,
+      "std": 20.9184923848807,
+      "min": 59.36188507080078,
+      "max": 189.60185718536377
+    },
+    "pneumonia": {
+      "mean": 122.56931234798623,
+      "std": 18.253657883061518,
+      "min": 58.72244887186294,
+      "max": 201.83959785883957
+    },
+    "tuberculosis": {
+      "mean": 130.3707501915603,
+      "std": 28.27143747716045,
+      "min": 5.4384765625,
+      "max": 237.0987588205645
+    },
+    "coefficient_of_variation": 2.6341160190158406,
+    "is_significantly_different": "False"
+  },
+  "mean_g": {
+    "normal": {
+      "mean": 128.6784915212203,
+      "std": 20.9184923848807,
+      "min": 59.36188507080078,
+      "max": 189.60185718536377
+    },
+    "pneumonia": {
+      "mean": 122.56931234798623,
+      "std": 18.253657883061518,
+      "min": 58.72244887186294,
+      "max": 201.83959785883957
+    },
+    "tuberculosis": {
+      "mean": 133.7855361676468,
+      "std": 26.243664866586634,
+      "min": 5.4384765625,
+      "max": 237.24152595766128
+    },
+    "coefficient_of_variation": 3.5724899145665754,
+    "is_significantly_different": "False"
+  },
+  "mean_b": {
+    "normal": {
+      "mean": 128.6784915212203,
+      "std": 20.9184923848807,
+      "min": 59.36188507080078,
+      "max": 189.60185718536377
+    },
+    "pneumonia": {
+      "mean": 122.56931234798623,
+      "std": 18.253657883061518,
+      "min": 58.72244887186294,
+      "max": 201.83959785883957
+    },
+    "tuberculosis": {
+      "mean": 134.9527998738746,
+      "std": 26.23656372655789,
+      "min": 5.4384765625,
+      "max": 237.41607862903226
+    },
+    "coefficient_of_variation": 3.9272497639566875,
+    "is_significantly_different": "False"
+  },
+  "channel_variance": {
+    "normal": {
+      "mean": 5.5199227074664935e-30,
+      "std": 3.293923641267828e-29,
+      "min": 0.0,
+      "max": 2.0194839173657902e-28
+    },
+    "pneumonia": {
+      "mean": 3.153760717619576e-29,
+      "std": 7.549380938090369e-29,
+      "min": 0.0,
+      "max": 8.077935669463161e-28
+    },
+    "tuberculosis": {
+      "mean": 37.37184800154998,
+      "std": 126.58800524510187,
+      "min": 0.0,
+      "max": 1675.9643860448523
+    },
+    "coefficient_of_variation": 141.42135623730948,
+    "is_significantly_different": "True"
+  },
+  "anova_tests": {
+    "width": {
+      "f_statistic": 2711.4881318694634,
+      "p_value": 0.0,
+      "is_significant": "True"
+    },
+    "height": {
+      "f_statistic": 1304.8654951131252,
+      "p_value": 0.0,
+      "is_significant": "True"
+    },
+    "aspect_ratio": {
+      "f_statistic": 3166.0105367759634,
+      "p_value": 0.0,
+      "is_significant": "True"
+    },
+    "file_size_kb": {
+      "f_statistic": 457.50536456781333,
+      "p_value": 1.3809903449721262e-181,
+      "is_significant": "True"
+    },
+    "mean_intensity": {
+      "f_statistic": 82.65480936937006,
+      "p_value": 5.591319053879413e-36,
+      "is_significant": "True"
+    },
+    "brightness": {
+      "f_statistic": 82.65480936937006,
+      "p_value": 5.591319053879413e-36,
+      "is_significant": "True"
+    },
+    "contrast": {
+      "f_statistic": 113.29573750723382,
+      "p_value": 9.903264901584575e-49,
+      "is_significant": "True"
+    },
+    "sharpness": {
+      "f_statistic": 142.0099268925965,
+      "p_value": 1.5673370610863935e-60,
+      "is_significant": "True"
+    },
+    "edge_density": {
+      "f_statistic": 841.0667994445713,
+      "p_value": 4.97092723474e-311,
+      "is_significant": "True"
+    },
+    "mean_r": {
+      "f_statistic": 48.269807500556134,
+      "p_value": 1.813573418634284e-21,
+      "is_significant": "True"
+    },
+    "mean_g": {
+      "f_statistic": 97.22838999412352,
+      "p_value": 4.588860431143585e-42,
+      "is_significant": "True"
+    },
+    "mean_b": {
+      "f_statistic": 118.2410413227605,
+      "p_value": 8.978924469067851e-51,
+      "is_significant": "True"
+    },
+    "channel_variance": {
+      "f_statistic": 130.73603034374747,
+      "p_value": 6.477175387945383e-56,
+      "is_significant": "True"
+    }
+  }
+}

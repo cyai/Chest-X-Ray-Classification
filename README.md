@@ -235,3 +235,10 @@ Created as a deep learning project for chest X-ray classification.
 ---
 
 **Note**: This model is for research purposes only and should not be used for clinical diagnosis without proper validation and regulatory approval.
+
+nohup python train_rnn.py > log_train_rnn.log 2>&1 &
+kill %1
+
+nohup python train_all_models.py > train_all_models.log 2>&1 &
+
+kill %1

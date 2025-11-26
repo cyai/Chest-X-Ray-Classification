@@ -1,0 +1,27 @@
+{
+  "model_architecture": "Hybrid CNN-BiLSTM with Uncertainty Quantification",
+  "cnn_backbone": "resnet18",
+  "total_parameters": 14465861,
+  "training": {
+    "epochs_trained": 48,
+    "best_val_loss": 0.14998740527837995,
+    "best_val_acc": 76.7063492063492,
+    "training_time_minutes": 22.541428542137147
+  },
+  "uncertainty_calibration": {
+    "entropy_threshold": 0.8586742281913757,
+    "confidence_threshold": 0.48696476221084595,
+    "target_coverage": 0.85,
+    "certain_accuracy": 0.8184787680821278,
+    "num_certain": 2143,
+    "num_total": 2520
+  },
+  "test_performance": {
+    "total_samples": 2554,
+    "certain_samples": 1997,
+    "uncertain_samples": 557,
+    "coverage_percent": 78.19107282693814,
+    "accuracy_on_certain": 84.07611417125689,
+    "overall_accuracy": 76.85982772122162
+  }
+}

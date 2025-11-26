@@ -1,0 +1,17 @@
+RNN Model Classification Report
+======================================================================
+
+Model Type: LSTM
+Hidden Size: 512
+Num Layers: 3
+Bidirectional: True
+
+              precision    recall  f1-score   support
+
+      normal     0.6234    0.7946    0.6987       925
+   pneumonia     0.7665    0.9755    0.8585       572
+tuberculosis     0.9444    0.5781    0.7171      1057
+
+    accuracy                         0.7455      2554
+   macro avg     0.7781    0.7827    0.7581      2554
+weighted avg     0.7883    0.7455    0.7421      2554

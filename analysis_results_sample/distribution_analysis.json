@@ -1,0 +1,72 @@
+{
+  "train": {
+    "total": 1500,
+    "classes": {
+      "normal": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "pneumonia": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "tuberculosis": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      }
+    }
+  },
+  "val": {
+    "total": 1500,
+    "classes": {
+      "normal": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "pneumonia": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "tuberculosis": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      }
+    }
+  },
+  "test": {
+    "total": 1500,
+    "classes": {
+      "normal": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "pneumonia": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      },
+      "tuberculosis": {
+        "count": 500,
+        "percentage": 33.33333333333333
+      }
+    }
+  },
+  "mismatch": {
+    "train_distribution": {
+      "normal": 33.33333333333333,
+      "pneumonia": 33.33333333333333,
+      "tuberculosis": 33.33333333333333
+    },
+    "test_distribution": {
+      "normal": 33.33333333333333,
+      "pneumonia": 33.33333333333333,
+      "tuberculosis": 33.33333333333333
+    },
+    "absolute_difference": {
+      "normal": 0.0,
+      "pneumonia": 0.0,
+      "tuberculosis": 0.0
+    },
+    "max_mismatch": 0.0,
+    "problematic_class": "normal"
+  }
+}
