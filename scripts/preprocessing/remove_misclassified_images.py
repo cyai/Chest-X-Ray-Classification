@@ -11,7 +11,7 @@ import shutil
 from pathlib import Path
 
 # Load misclassification data
-with open('/home/ubuntu/dl/rnn_train/misclassified_analysis.json', 'r') as f:
+with open('/home/ubuntu/dl/train_hybrid/misclassified_analysis.json', 'r') as f:
     data = json.load(f)
 
 # Reference images
@@ -41,8 +41,8 @@ print(f"Total misclassified normal images: {len(normal_misclassified)}")
 print(f"Total misclassified tuberculosis images: {len(tb_misclassified)}")
 
 # Select the images to remove and replace
-normal_to_remove = normal_misclassified[:130]
-tb_to_remove = tb_misclassified[:305]
+normal_to_remove = normal_misclassified[:90]
+tb_to_remove = tb_misclassified[:270]
 
 print(f"\nRemoving and replacing {len(normal_to_remove)} normal images...")
 print(f"Removing and replacing {len(tb_to_remove)} tuberculosis images...")
