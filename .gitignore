@@ -13,3 +13,4 @@ chest_xray_dataset
 chest_xray_standardized
 rnn_train/test
 hybrid_standardized_train
+scripts/preprocessing/*images.py
