@@ -2,6 +2,7 @@
 
 ## From Baseline CNN to Hybrid CNN-BiLSTM with Uncertainty Quantification
 
+### Video Summary: [Link](https://plakshauniversity1-my.sharepoint.com/:v:/g/personal/vardhaman_k_ug23_plaksha_edu_in/IQCfNb1E1BTMQ7fZekfa05HSAQ_6LvFgqaJ--6v09hSp8jU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IVdArg)
 ---
 
 ## Summary
